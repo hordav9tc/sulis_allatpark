@@ -11,23 +11,6 @@ body
 filter: drop-shadow(0px 0px 15px green);
 }
 
-.felirat
-{
-    background-color: white;
-    width: 80%;
-    margin: -20px auto 0 auto;
-    border-radius: 10px;
-    padding: 10px;
-    position: relative;
-}
-
-.felirat p
-{
-    margin: 0;
-    font-style: italic;
-    color: #40409b;
-}
-
 .bal-oszlop {
     text-align: center;
     font-style: italic;
@@ -42,7 +25,16 @@ filter: drop-shadow(0px 0px 15px green);
 
 .minuszmargo
 {
-    margin-top: -60px;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    margin: -60px auto 0 auto;
+    color: #40409b;
+    font-style: italic;
+    font-size: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
 }
 
 .keretes
